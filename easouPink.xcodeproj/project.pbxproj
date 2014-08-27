@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08BD69DD19ADEE590043F117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BD69DC19ADEE590043F117 /* Foundation.framework */; };
+		08BD69DF19ADEE590043F117 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BD69DE19ADEE590043F117 /* CoreGraphics.framework */; };
+		08BD69E119ADEE590043F117 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BD69E019ADEE590043F117 /* UIKit.framework */; };
+		08BD69E719ADEE590043F117 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08BD69E519ADEE590043F117 /* InfoPlist.strings */; };
+		08BD69E919ADEE590043F117 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BD69E819ADEE590043F117 /* main.m */; };
+		08BD69ED19ADEE590043F117 /* PKAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BD69EC19ADEE590043F117 /* PKAppDelegate.m */; };
+		08BD69EF19ADEE590043F117 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08BD69EE19ADEE590043F117 /* Images.xcassets */; };
+		08BD69F619ADEE590043F117 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BD69F519ADEE590043F117 /* XCTest.framework */; };
+		08BD69F719ADEE590043F117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BD69DC19ADEE590043F117 /* Foundation.framework */; };
+		08BD69F819ADEE590043F117 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08BD69E019ADEE590043F117 /* UIKit.framework */; };
+		08BD6A0019ADEE590043F117 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 08BD69FE19ADEE590043F117 /* InfoPlist.strings */; };
+		08BD6A0219ADEE590043F117 /* easouPinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BD6A0119ADEE590043F117 /* easouPinkTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08BD69F919ADEE590043F117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08BD69D119ADEE590043F117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08BD69D819ADEE590043F117;
+			remoteInfo = easouPink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08BD69D919ADEE590043F117 /* easouPink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easouPink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		08BD69DC19ADEE590043F117 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		08BD69DE19ADEE590043F117 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		08BD69E019ADEE590043F117 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		08BD69E419ADEE590043F117 /* easouPink-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "easouPink-Info.plist"; sourceTree = "<group>"; };
+		08BD69E619ADEE590043F117 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08BD69E819ADEE590043F117 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		08BD69EA19ADEE590043F117 /* easouPink-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "easouPink-Prefix.pch"; sourceTree = "<group>"; };
+		08BD69EB19ADEE590043F117 /* PKAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PKAppDelegate.h; sourceTree = "<group>"; };
+		08BD69EC19ADEE590043F117 /* PKAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PKAppDelegate.m; sourceTree = "<group>"; };
+		08BD69EE19ADEE590043F117 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		08BD69F419ADEE590043F117 /* easouPinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = easouPinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		08BD69F519ADEE590043F117 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		08BD69FD19ADEE590043F117 /* easouPinkTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "easouPinkTests-Info.plist"; sourceTree = "<group>"; };
+		08BD69FF19ADEE590043F117 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		08BD6A0119ADEE590043F117 /* easouPinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = easouPinkTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08BD69D619ADEE590043F117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BD69DF19ADEE590043F117 /* CoreGraphics.framework in Frameworks */,
+				08BD69E119ADEE590043F117 /* UIKit.framework in Frameworks */,
+				08BD69DD19ADEE590043F117 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08BD69F119ADEE590043F117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BD69F619ADEE590043F117 /* XCTest.framework in Frameworks */,
+				08BD69F819ADEE590043F117 /* UIKit.framework in Frameworks */,
+				08BD69F719ADEE590043F117 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08BD69D019ADEE590043F117 = {
+			isa = PBXGroup;
+			children = (
+				08BD69E219ADEE590043F117 /* easouPink */,
+				08BD69FB19ADEE590043F117 /* easouPinkTests */,
+				08BD69DB19ADEE590043F117 /* Frameworks */,
+				08BD69DA19ADEE590043F117 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08BD69DA19ADEE590043F117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08BD69D919ADEE590043F117 /* easouPink.app */,
+				08BD69F419ADEE590043F117 /* easouPinkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08BD69DB19ADEE590043F117 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08BD69DC19ADEE590043F117 /* Foundation.framework */,
+				08BD69DE19ADEE590043F117 /* CoreGraphics.framework */,
+				08BD69E019ADEE590043F117 /* UIKit.framework */,
+				08BD69F519ADEE590043F117 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		08BD69E219ADEE590043F117 /* easouPink */ = {
+			isa = PBXGroup;
+			children = (
+				08BD69EB19ADEE590043F117 /* PKAppDelegate.h */,
+				08BD69EC19ADEE590043F117 /* PKAppDelegate.m */,
+				08BD69EE19ADEE590043F117 /* Images.xcassets */,
+				08BD69E319ADEE590043F117 /* Supporting Files */,
+			);
+			path = easouPink;
+			sourceTree = "<group>";
+		};
+		08BD69E319ADEE590043F117 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08BD69E419ADEE590043F117 /* easouPink-Info.plist */,
+				08BD69E519ADEE590043F117 /* InfoPlist.strings */,
+				08BD69E819ADEE590043F117 /* main.m */,
+				08BD69EA19ADEE590043F117 /* easouPink-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08BD69FB19ADEE590043F117 /* easouPinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				08BD6A0119ADEE590043F117 /* easouPinkTests.m */,
+				08BD69FC19ADEE590043F117 /* Supporting Files */,
+			);
+			path = easouPinkTests;
+			sourceTree = "<group>";
+		};
+		08BD69FC19ADEE590043F117 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08BD69FD19ADEE590043F117 /* easouPinkTests-Info.plist */,
+				08BD69FE19ADEE590043F117 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08BD69D819ADEE590043F117 /* easouPink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08BD6A0519ADEE590043F117 /* Build configuration list for PBXNativeTarget "easouPink" */;
+			buildPhases = (
+				08BD69D519ADEE590043F117 /* Sources */,
+				08BD69D619ADEE590043F117 /* Frameworks */,
+				08BD69D719ADEE590043F117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = easouPink;
+			productName = easouPink;
+			productReference = 08BD69D919ADEE590043F117 /* easouPink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08BD69F319ADEE590043F117 /* easouPinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08BD6A0819ADEE590043F117 /* Build configuration list for PBXNativeTarget "easouPinkTests" */;
+			buildPhases = (
+				08BD69F019ADEE590043F117 /* Sources */,
+				08BD69F119ADEE590043F117 /* Frameworks */,
+				08BD69F219ADEE590043F117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08BD69FA19ADEE590043F117 /* PBXTargetDependency */,
+			);
+			name = easouPinkTests;
+			productName = easouPinkTests;
+			productReference = 08BD69F419ADEE590043F117 /* easouPinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08BD69D119ADEE590043F117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = PK;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Neo Wu";
+				TargetAttributes = {
+					08BD69F319ADEE590043F117 = {
+						TestTargetID = 08BD69D819ADEE590043F117;
+					};
+				};
+			};
+			buildConfigurationList = 08BD69D419ADEE590043F117 /* Build configuration list for PBXProject "easouPink" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 08BD69D019ADEE590043F117;
+			productRefGroup = 08BD69DA19ADEE590043F117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08BD69D819ADEE590043F117 /* easouPink */,
+				08BD69F319ADEE590043F117 /* easouPinkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08BD69D719ADEE590043F117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BD69E719ADEE590043F117 /* InfoPlist.strings in Resources */,
+				08BD69EF19ADEE590043F117 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08BD69F219ADEE590043F117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BD6A0019ADEE590043F117 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08BD69D519ADEE590043F117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BD69E919ADEE590043F117 /* main.m in Sources */,
+				08BD69ED19ADEE590043F117 /* PKAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08BD69F019ADEE590043F117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BD6A0219ADEE590043F117 /* easouPinkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08BD69FA19ADEE590043F117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08BD69D819ADEE590043F117 /* easouPink */;
+			targetProxy = 08BD69F919ADEE590043F117 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08BD69E519ADEE590043F117 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08BD69E619ADEE590043F117 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		08BD69FE19ADEE590043F117 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08BD69FF19ADEE590043F117 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08BD6A0319ADEE590043F117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08BD6A0419ADEE590043F117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08BD6A0619ADEE590043F117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "easouPink/easouPink-Prefix.pch";
+				INFOPLIST_FILE = "easouPink/easouPink-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		08BD6A0719ADEE590043F117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "easouPink/easouPink-Prefix.pch";
+				INFOPLIST_FILE = "easouPink/easouPink-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		08BD6A0919ADEE590043F117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/easouPink.app/easouPink";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "easouPink/easouPink-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "easouPinkTests/easouPinkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		08BD6A0A19ADEE590043F117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/easouPink.app/easouPink";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "easouPink/easouPink-Prefix.pch";
+				INFOPLIST_FILE = "easouPinkTests/easouPinkTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08BD69D419ADEE590043F117 /* Build configuration list for PBXProject "easouPink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BD6A0319ADEE590043F117 /* Debug */,
+				08BD6A0419ADEE590043F117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08BD6A0519ADEE590043F117 /* Build configuration list for PBXNativeTarget "easouPink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BD6A0619ADEE590043F117 /* Debug */,
+				08BD6A0719ADEE590043F117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		08BD6A0819ADEE590043F117 /* Build configuration list for PBXNativeTarget "easouPinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BD6A0919ADEE590043F117 /* Debug */,
+				08BD6A0A19ADEE590043F117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08BD69D119ADEE590043F117 /* Project object */;
+}
